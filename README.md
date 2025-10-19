@@ -74,14 +74,14 @@ Each entity is loaded from the CSV dataset via Python, using **hashed business k
 
 ---
 
-## 🗺️ Data Model Diagram
+## 🗺️ Data Vault Model Diagram
 
-![Games Data Vault ERD](screenshots/data_vault_model.png)
+![Data Vault Model Diagram](screenshots/data_vault_model.png)
 
 ---
 
 ## ⚙️ ETL Process
-[`01_data_vault_load.ipynb`](notebooks/01_data_vault_load.ipynb)  
+### [`01_data_vault_load.ipynb`](notebooks/01_data_vault_load.ipynb)  
 
 The notebook performs the following steps:
 1. **Load CSV** data using Pandas.  

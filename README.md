@@ -33,8 +33,8 @@ The main goal was to design a **scalable, auditable data warehouse structure (Da
 ## 🧩 Project Structure
 
 - [**data**](data/) – raw source CSV files  
-  - [`video_games_sales_with_ratings.csv`](data/video_games_sales_with_ratings.csv)  
-
+  - [`video_games_sales_with_ratings.csv`](data/video_games_sales_with_ratings.csv) - data CSV file  
+  - [`README.md`](data/README.md) - dataset details
 - [**notebooks**](notebooks/) – Jupyter notebooks for data processing and loading  
   - [`01_data_vault_load.ipynb`](notebooks/01_data_vault_load.ipynb)  
 
